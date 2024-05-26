@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
 def return_evens(num_list):
-     return [num for num in sequence if num % 2 == 0]
-    
+    even_numbers = [num for num in num_list if num % 2 == 0]
+    return even_numbers
 
 def make_exclamation(sentence_list):
-     return [sentence + '!' for sentence in sentences]
+    exclaimed_sentences = [sentence.strip() + '!' for sentence in sentence_list]
+    return exclaimed_sentences
+
